@@ -10,10 +10,10 @@ int32_t main(){
          cin>>n>>x>>p;
          if ((x*3-(n-x)>=p)) 
          {
-     cout<< "PASS"<<"\n";
+     cout<< "YES"<<"\n";
          }
     else{
-        cout <<"FAIL"<<"\n";
+        cout <<"NO"<<"\n";
         }
     }
     return 0;
